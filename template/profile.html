@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/feeds.css">
+        <title>Recipe Details</title>
+    </head>
+
+    <body id="home">
+        <!-- Beginning of Nav Bar -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+                    <div class="navbar-collapse justify-content-end" id="navbarNav">
+                       <form class="form-inline my-2 my-lg-0">
+                            <a href="new-post.html" class="btn btn-success my-2 my-sm-0" type="submit">Create New Post</a>&nbsp;&nbsp;
+                           <a href="feeds.html" class="btn btn-danger my-2 my-sm-0" type="submit">Logout</a>
+                       </form>
+                   </div>
+           </div>   
+       </nav>
+       <!-- End of Navbar -->
+
+        <!--Start of Main Section -->
+        <section id="share-head-section" class="bg-light text-primary recipe-container" style="margin-top:-40px;">
+                <div class="container">
+                    <h1 class="page-header" align="center">
+                       User Profile
+                    </h1>
+                    <div class="row">
+                    <div class="col-md-1"></div>          
+                    <div class="col-md-3"> 
+                        <div class="MyPicture"><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-512.png"></div>
+                    </div>
+                    <div class="col-md-6 user-details">
+                        <!--Users Details -->
+                        <form>
+                        <div class="card">
+                            &nbsp;
+                            <div class="card-block text-nowrap" align="left">
+                                <input class="form-control" placeholder="Seun Daramola">
+                            </div><br>&nbsp;<br>
+                            <div class="card-block text-nowrap" align="left">
+                                    <input class="form-control" placeholder="Usersname">
+                            </div><br>&nbsp;<br>
+                            <div class="card-block text-nowrap" align="left">
+                                    <input class="form-control" placeholder="Email Address">
+                            </div>
+                            
+                        </div><br>
+                        <button class="btn btn-warning">Update Profile</button>
+                        </form>
+                        <hr>
+                        <div class="card-block text-nowrap" align="left">
+                                <strong>Make Changes to a Post:</strong>
+                            <!--User's Recipe -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-block text-nowrap" align="left">
+                                        <a href="edit-post.html"> <span>Title of Recipe</span></a>
+                                        <img src="img/salad.jpg" class="rounded float-right" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-block text-nowrap" align="left">
+                                        <a href="edit-post.html"> <span>Title of Recipe</span></a>
+                                        <img src="img/bg.jpg" class="rounded float-right" alt="...">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                        <div class="card-block text-nowrap" align="left">
+                                            <a href="edit-post.html"> <span>Title of Recipe</span></a>
+                                            <img src="img/salad.jpg" class="rounded float-right" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-block text-nowrap" align="left">
+                                            <a href="edit-post.html"> <span>Title of Recipe</span></a>
+                                            <img src="img/burger.jpg" class="rounded float-right" alt="...">
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Start of Footer -->
+        <footer>
+            <div class="container">
+               <div class="row">
+                   <div class="col text-center">
+                       <p>
+                        Copyright &copy; 2017. More Recipe
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </footer>
+       <!-- End of Footer -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>More Recipe</title>
+    </head>
+
+    <body id="home">
+        <!-- Beginning of Nav Bar -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+                    <div class="navbar-collapse justify-content-end" id="navbarNav">
+                        <a href="feeds.html" data-toggle="modal" data-target="#loginModal" class="btn btn-success my-2 my-sm-0" type="submit">Login</a> &nbsp; &nbsp;
+                        <a href="signup.html" data-toggle="modal" data-target="#signupModal" class="btn btn-danger my-2 my-sm-0" type="submit">Sign Up</a>
+                    </div>
+            </div>   
+        </nav>
+        <!-- End of Navbar -->
+
+        <!-- Start of MainSection -->
+         <header id="home-section">
+            <div class="dark-overlay">
+                <div class="home-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8"><br><br>
+                                <h1 class="display-4">Share Your Recipes With The World Today</h1><hr>
+                                <p class="lead"><strong>More Recipe</strong> is an application that allows you to Share your amazing recipes online
+                                and also view a wide range of recipes by other online chefs</p><br>
+                                <p class="lead">
+                                    Sign Up for free today for an amazing Experience
+                                </p>
+                               <a href="feeds.html"> <h2 class="blockquote Source Title text-white">See amazing recipe listings</h2></a><br>
+                            </div>
+                            <hr>
+                            <div class="col-lg-4">
+                                <div class="card bg-primary text-center card-form">
+                                    <div class="card-body">
+                                        <h3>Welcome to More Recipe</h3>
+                                        <p>Log into your account</p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Username">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control form-control-lg" placeholder="Password">
+                                            </div>
+                                            <input type="submit" value="Login" class="btn btn-success btn-block">
+                                        </form>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <p>Don't have an account?
+                                            <a href="#" data-toggle="modal" data-target="#signupModal" class="text-white"><strong>Sign Up</strong></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Copyright div-->
+                <div class="container">
+                    &#9400; 2017 More Recipe
+                </div>
+                <!--End of Copyright-->
+            </div>
+        </header>
+        <!--End of Main Section-->
+
+
+    <!--Modal Forms -->
+
+    <!-- Start of Sign Up Modal -->
+    <div id="signupModal" class="modal fade text-dark">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="contactModalTitle" class="modal-title">
+                        Sign Up
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmpassword">Confrim Password:</label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Sign Up Modal -->
+
+    <!-- Start of Login Modal -->
+    <div id="loginModal" class="modal fade text-dark">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="contactModalTitle" class="modal-title">
+                           Sign In
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="Name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="feeds.html">
+                        <button class="btn btn-primary btn-block">
+                            Sign In
+                        </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of login Modal -->
+
+
+        
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

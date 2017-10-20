@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/feeds.css">
+        <title>Recipe Details</title>
+    </head>
+
+    <body id="home">
+        <!-- Beginning of Nav Bar -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+                    <div class="navbar-collapse justify-content-end" id="navbarNav">
+                       <form class="form-inline my-2 my-lg-0">
+                            <a href="profile.html" class="btn btn-success my-2 my-sm-0" type="submit">My Profile</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger my-2 my-sm-0" type="submit">Logout</a>
+                       </form>
+                   </div>
+           </div>   
+       </nav>
+       <!-- End of Navbar -->
+
+        <!--Start of Main Section -->
+        <section id="share-head-section" class="bg-light text-primary recipe-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header"></h1>
+                        <input type="text" class="form-control form-control-lg" placeholder="Recipe Title"><br>
+                        
+                        <div class="form-group">
+                            <h4 class="page-header" align="justify">Upload Image</h4>
+                            <input type="file" class="form-control-file">
+                            <small id="fileHelp" class="form-text text-muted">Select an Image from your Computer.</small>
+                        </div>
+                        <h4 class="page-header" align="justify">Ingredients</h4>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg" placeholder="Ingredients (Seperate with commas)" rows="3"></textarea>
+                        </div>
+                        <div class="mb-5">
+                        <h4 class="page-header">Directions</h4>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg" placeholder="Directions" rows="3"></textarea>
+                        </div>
+                        </div>
+                        <a class="btn btn-success my-2 my-sm-0 text-white" type="submit">Update</a>&nbsp;&nbsp;
+                        <a class="btn btn-danger my-2 my-sm-0 text-white" type="submit">Delete</a>
+                        <hr>
+                    </div>    
+        </section>
+        <!--Start of Footer -->
+        <footer>
+            <div class="container">
+               <div class="row">
+                   <div class="col text-center">
+                       <p>
+                        Copyright &copy; 2017. More Recipe
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </footer>
+       <!-- End of Footer -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

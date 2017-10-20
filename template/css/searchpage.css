@@ -1,0 +1,72 @@
+img {
+    max-width: 100%;
+   }
+   .top-items {
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+   }
+   .rated {
+   width: 380px;
+   background: white;
+   border-radius: 5px;
+   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1)
+   }
+   .des {
+    padding: 30px;
+   }
+
+   .des h2 {
+   color: orange;
+   }
+
+   .des > div {
+   line-height: 1.4rem;
+   font-size: 14px;
+   color: #878787;
+   }
+  
+   .picIcon{
+margin-bottom:30px;
+opacity: 0.6;
+}
+.recipe-by {
+height: 50px;
+text-align: left;
+color: #c9c9c9
+}
+
+.recipe-by strong {
+color: orange;
+}
+
+.icons {
+display: block;
+margin-top: 10px;
+color: black;
+}
+
+.icons .fa-heart{
+color: orange;
+}
+
+.icons .fa-thumbs-up{
+color: green;
+}
+
+.icons .fa-thumbs-down{
+color: red;
+}
+
+.icons .fa-eye{
+color: skyblue;
+}
+
+.main-aside {
+height: 300px;
+text-align: center;
+}
+
+#explore-head-section{
+    margin-top: 50px;
+}

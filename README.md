@@ -2,7 +2,7 @@
 More Recipe allows users to post amazing recipes online. Users can view, post, comment and even rate these recipes.
 
 ## More-Recipe-App UI Template
-This branch contains the template UI for the More-Recipe-App
+The gh-pages branch contains the template UI for the More-Recipe-App
 
 ### App Status
 

@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/feeds.css">
-        <title>Recipe Details</title>
+        <title>My Profile</title>
+        
     </head>
 
     <body id="home">
@@ -17,8 +18,17 @@
                <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
                     <div class="navbar-collapse justify-content-end" id="navbarNav">
                        <form class="form-inline my-2 my-lg-0">
-                            <a href="new-post.html" class="btn btn-success my-2 my-sm-0" type="submit">Create New Post</a>&nbsp;&nbsp;
-                           <a href="feeds.html" class="btn btn-danger my-2 my-sm-0" type="submit">Logout</a>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              My Profile
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="feeds.html">All Recipes</a>
+                              <a class="dropdown-item" href="list.html">Favourites</a>
+                              <a class="dropdown-item" href="profile.html">Profile</a>
+                              <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                          </div>
                        </form>
                    </div>
            </div>   
@@ -35,6 +45,8 @@
                     <div class="col-md-1"></div>          
                     <div class="col-md-3"> 
                         <div class="MyPicture"><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-512.png"></div>
+                        <input type="file" class="form-control-file">
+                        <small class="form-text text-left text-white" >Select an Image from your Computer.</small>
                     </div>
                     <div class="col-md-6 user-details">
                         <!--Users Details -->
@@ -55,33 +67,43 @@
                         <button class="btn btn-warning">Update Profile</button>
                         </form>
                         <hr>
+                        <a class="btn btn-primary my-2 my-sm-0" href="new-post.html">Create New Post</a><br><hr>
                         <div class="card-block text-nowrap" align="left">
                                 <strong>Make Changes to a Post:</strong>
                             <!--User's Recipe -->
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 maxh">
                                     <div class="card-block text-nowrap" align="left">
                                         <a href="edit-post.html"> <span>Title of Recipe</span></a>
                                         <img src="img/salad.jpg" class="rounded float-right" alt="...">
-                                    </div>
+                                        
+                                    </div><br>
+                                    <a href="edit-post.html" class="btn btn-warning my-2 my-sm-0" type="submit">Edit Post</a><br><br><br>
+                                    <a href="signup.html" class="btn btn-danger my-2 my-sm-0" type="submit">Delete Post</a>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 maxh">
                                     <div class="card-block text-nowrap" align="left">
                                         <a href="edit-post.html"> <span>Title of Recipe</span></a>
                                         <img src="img/bg.jpg" class="rounded float-right" alt="...">
-                                    </div>
+                                    </div><br>
+                                    <a href="edit-post.html" class="btn btn-warning my-2 my-sm-0" type="submit">Edit Post</a><br><br><br>
+                                    <a href="signup.html" class="btn btn-danger my-2 my-sm-0" type="submit">Delete Post</a>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 maxh">
                                         <div class="card-block text-nowrap" align="left">
                                             <a href="edit-post.html"> <span>Title of Recipe</span></a>
                                             <img src="img/salad.jpg" class="rounded float-right" alt="...">
-                                        </div>
+                                        </div><br>
+                                        <a href="edit-post.html" class="btn btn-warning my-2 my-sm-0" type="submit">Edit Post</a><br><br><br>
+                                        <a href="signup.html" class="btn btn-danger my-2 my-sm-0" type="submit">Delete Post</a>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 maxh">
                                         <div class="card-block text-nowrap" align="left">
                                             <a href="edit-post.html"> <span>Title of Recipe</span></a>
                                             <img src="img/burger.jpg" class="rounded float-right" alt="...">
-                                        </div>
+                                        </div><br>
+                                        <a href="edit-post.html" class="btn btn-warning my-2 my-sm-0" type="submit">Edit Post</a><br><br><br>
+                                        <a href="signup.html" class="btn btn-danger my-2 my-sm-0" type="submit">Delete Post</a>
                                     </div>
                             </div>
                             

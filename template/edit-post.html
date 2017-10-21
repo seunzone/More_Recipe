@@ -7,17 +7,27 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/feeds.css">
-        <title>Recipe Details</title>
+        <title>Edit Post</title>
     </head>
 
     <body id="home">
         <!-- Beginning of Nav Bar -->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="container">
                <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
                     <div class="navbar-collapse justify-content-end" id="navbarNav">
                        <form class="form-inline my-2 my-lg-0">
-                            <a href="profile.html" class="btn btn-success my-2 my-sm-0" type="submit">My Profile</a>&nbsp;&nbsp;
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              My Profile
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="feeds.html">All Recipes</a>
+                              <a class="dropdown-item" href="list.html">Favourites</a>
+                              <a class="dropdown-item" href="profile.html">Profile</a>
+                              <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                          </div>&nbsp; &nbsp;
                             <a class="btn btn-danger my-2 my-sm-0" type="submit">Logout</a>
                        </form>
                    </div>
@@ -25,48 +35,55 @@
        </nav>
        <!-- End of Navbar -->
 
-        <!--Start of Main Section -->
-        <section id="share-head-section" class="bg-light text-primary recipe-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-header"></h1>
-                        <input type="text" class="form-control form-control-lg" placeholder="Recipe Title"><br>
-                        
-                        <div class="form-group">
-                            <h4 class="page-header" align="justify">Upload Image</h4>
-                            <input type="file" class="form-control-file">
-                            <small id="fileHelp" class="form-text text-muted">Select an Image from your Computer.</small>
-                        </div>
-                        <h4 class="page-header" align="justify">Ingredients</h4>
-                        <div class="form-group">
-                            <textarea class="form-control form-control-lg" placeholder="Ingredients (Seperate with commas)" rows="3"></textarea>
-                        </div>
-                        <div class="mb-5">
-                        <h4 class="page-header">Directions</h4>
-                        <div class="form-group">
-                            <textarea class="form-control form-control-lg" placeholder="Directions" rows="3"></textarea>
-                        </div>
-                        </div>
-                        <a class="btn btn-success my-2 my-sm-0 text-white" type="submit">Update</a>&nbsp;&nbsp;
-                        <a class="btn btn-danger my-2 my-sm-0 text-white" type="submit">Delete</a>
-                        <hr>
-                    </div>    
-        </section>
-        <!--Start of Footer -->
-        <footer>
-            <div class="container">
-               <div class="row">
-                   <div class="col text-center">
-                       <p>
-                        Copyright &copy; 2017. More Recipe
-                       </p>
-                   </div>
-               </div>
-           </div>
-       </footer>
-       <!-- End of Footer -->
+       <!-- Start of MainSection -->
+       <header id="home-section">
+            <div class="dark-overlay">
+                <div class="home-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card bg-primary text-center card-form">
+                                    <div class="card-body">
+                                        <h3>Edit Your Post</h3>
+                                        <p>Kindly fill the form</p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Recipe Title">
+                                            </div>
+                                            <div class="form-group">
+                                                <h4 class="page-header" align="justify">Upload Image</h4>
+                                                <input type="file" class="form-control-file">
+                                                <small class="form-text text-left text-white" >Select an Image from your Computer.</small>
+                                            </div>                                            
+                                            <div class="form-group">
+                                                <textarea class="form-control form-control-lg" placeholder="Ingredients (Seperate with commas)" rows="3"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                    <textarea class="form-control form-control-lg" placeholder="Directions" rows="3"></textarea>
+                                            </div>
+                                            <input type="submit" value="Update Post" class="btn btn-success btn-block">
+                                        </form>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <p>
+                                                &#9400; 2017 More Recipe
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

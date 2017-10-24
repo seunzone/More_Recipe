@@ -81,3 +81,11 @@ padding-bottom: 80px;
 font-size: 64px; 
 margin-bottom: 30px;
 }
+
+.card-img-top{
+  max-height: 120px;
+}
+
+.card-deck{
+  margin-bottom: 120px;
+}

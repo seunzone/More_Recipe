@@ -2,9 +2,9 @@
   "name": "more_recipe",
   "version": "1.0.0",
   "description": "recipe app",
-  "main": "app.js",
+  "main": "server/app.js",
   "scripts": {
-    "start": "./node_modules/.bin/babel-watch server",
+    "start": "babel-watch server/app.js",
     "babel-node": "babel-node --",
     "build": "./node_modules/.bin/babel server -d build",
     "dist": "./node_modules/.bin/babel server -d dist --presets=babili",
@@ -35,6 +35,9 @@
     "mocha": "^4.0.1"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
   }
 }

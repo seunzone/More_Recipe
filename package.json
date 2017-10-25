@@ -1,0 +1,19 @@
+{
+  "name": "more_recipe",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seunzone/More_Recipe.git"
+  },
+  "author": "Seun Daramola <darealseun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seunzone/More_Recipe/issues"
+  },
+  "homepage": "https://github.com/seunzone/More_Recipe#readme"
+}

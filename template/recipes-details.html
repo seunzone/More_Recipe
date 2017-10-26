@@ -18,22 +18,40 @@
                     <div class="navbar-collapse justify-content-end" id="navbarNav">
                        <form class="form-inline my-2 my-lg-0">
                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                           <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                           <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>&nbsp;&nbsp;
                        </form>
+                       <form class="form-inline my-2 my-lg-0">
+                        <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My Profile
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="feeds.html">All Recipes</a>
+                            <a class="dropdown-item" href="list.html">Favourites</a>
+                            <a class="dropdown-item" href="profile.html">Profile</a>
+                            <a class="dropdown-item" href="#">Logout</a>
+                          </div>
+                        </div>
+                      </form>
                    </div>
            </div>   
        </nav>
        <!-- End of Navbar -->
-
+       
         <!--Start of Main Section -->
         <section id="share-head-section" class="bg-light text-primary recipe-container">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-header">
+                        <h1 class="page-header"><hr>
                         Yoruba Sald
                         </h1>
                         <img src="img/salad.jpg" class="img-fluid" alt="Responsive image">
+                        <span class="icons"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp;120&nbsp;&nbsp;
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;120&nbsp;&nbsp;
+                            <i class="fa fa-thumbs-down" aria-hidden="true"></i>&nbsp;120&nbsp;&nbsp;
+                            <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;120
+                        </span>
                         <h4 class="page-header" align="justify">Ingredients</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -53,16 +71,18 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
+
+                        <h4 class="page-header text-success">Comment Box</h4>
+                        <p class="text-success">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati laboriosam dolor illum voluptates?
+                        <br/> <span class="text-danger">--@username</span>
+                        </p>
                   
                         </div>
                   
                         <form class="comment">
                         <div class="form-group">
-                                <span class="icons"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp;120&nbsp;&nbsp;
-                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;120&nbsp;&nbsp;
-                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>&nbsp;120&nbsp;&nbsp;
-                                    <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;120
-                                  </span>
+                                
                           <textarea class="form-control" id="recipeComment" rows="3" placeholder="Add a new comment" ></textarea>
                         </div>
                         <div class="form-group">

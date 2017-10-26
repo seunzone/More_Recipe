@@ -14,7 +14,7 @@ describe('Test API', () => {
       chai.request(app)
         .get('/')
         .end((err, res) => {
-          expect(res).to.have.status(200);
+          expect(res.status).to.equal(200);
           done();
         });
     });

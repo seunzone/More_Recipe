@@ -9,4 +9,4 @@ The gh-pages branch contains the template UI for the More-Recipe-App
 Not ready for release yet, still in development mode
 
 
-View UI Demo [click here](https://seunzone.github.io/More-Recipe-App/)
+View UI Demo [click here](https://seunzone.github.io/More_Recipe/template/)

@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/seunzone/More_Recipe#readme",
   "devDependencies": {
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
@@ -40,11 +46,5 @@
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
     "supertest": "^3.0.0"
-  },
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "morgan": "^1.9.0"
   }
 }

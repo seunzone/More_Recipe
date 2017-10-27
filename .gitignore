@@ -3,3 +3,6 @@ node_modules/
 
 #build folder
 build/
+
+#Coveralls
+.nyc_output/

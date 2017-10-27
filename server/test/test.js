@@ -18,15 +18,6 @@ describe('Test API', () => {
           done();
         });
     });
-    // Test for unknown routes
-    it('Should return 404 for unknown routes', (done) => {
-      chai.request(app)
-        .get('/some/unknown/anonymous/route')
-        .end((err, res) => {
-          expect(res).to.have.status(404);
-          done();
-        });
-    });
     // Test for undefined routes
     it('Undefined Routes Should Return 404', (done) => {
       chai.request(app)

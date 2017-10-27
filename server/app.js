@@ -24,3 +24,5 @@ app.get('*', (req, res) => res.status(200).send({
 }));
 
 app.listen(port);
+
+export default app;

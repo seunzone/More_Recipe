@@ -12,6 +12,25 @@ The gh-pages branch contains the template UI for the More-Recipe-App
 
 Not ready for release yet, still in development mode
 
+## Install Dependencies
+
+```bash
+npm install 
+```
+
+## Run Test
+
+```bash
+npm run test
+```
+
+## Check for Coverage
+
+```bash
+npm run coveralls
+```
+
+
 
 
 View UI Demo [click here](https://seunzone.github.io/More_Recipe/template)

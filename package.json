@@ -1,0 +1,46 @@
+{
+  "name": "more_recipe",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "babel-watch server/app.js",
+    "babel-node": "babel-node --",
+    "build": "./node_modules/.bin/babel server -d build",
+    "dist": "./node_modules/.bin/babel server -d dist --presets=babili",
+    "test": "mocha server/test/*.js --exit --require babel-register --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seunzone/More_Recipe.git"
+  },
+  "author": "Seun Daramola <darealseun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seunzone/More_Recipe/issues"
+  },
+  "homepage": "https://github.com/seunzone/More_Recipe#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "babili": "^0.1.4",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}

@@ -16,15 +16,14 @@
             <div class="container">
                <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
                     <div class="navbar-collapse justify-content-end" id="navbarNav">
+                        <a class="btn btn-primary" href="feeds.html">All Recipes</a>&nbsp; &nbsp;
+                        <a class="btn btn-primary" href="list.html">My Favourites</a>&nbsp; &nbsp;
                        <form class="form-inline my-2 my-lg-0">
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               My Profile
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="feeds.html">All Recipes</a>
-                              <a class="dropdown-item" href="list.html">Favourites</a>
-                              <a class="dropdown-item" href="profile.html">Profile</a>
                               <a class="dropdown-item" href="#">Logout</a>
                             </div>
                           </div>
@@ -35,53 +34,42 @@
        <!-- End of Navbar -->
 
         <!--Start of Main Section -->
-        <section id="share-head-section" class="bg-light text-primary recipe-container" style="margin-top:-40px;">
-                <div class="container" style="margin-bottom:150px;">
-                    <h1 class="page-header" align="center">
-                       User Profile
-                    </h1>
-                    <div class="row" >
-                    <div class="col-md-1"></div>          
-                    <div class="col-md-3"> 
-                        <div class="MyPicture"><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-512.png"></div>
-                        <input type="file" class="form-control-file">
-                        <small class="form-text text-left text-white" >Select an Image from your Computer.</small>
-                    </div>
-                    <div class="col-md-6 user-details">
-                        <!--Users Details -->
-                        <form>
-                        <div class="card">
-                                <div class="card-block text-nowrap" align="left">
-                                        <strong>Name</strong> Seun Daramola
-                                    </div><br>
-                                    <div class="card-block text-nowrap" align="left">
-                                        <strong>Username:</strong> @seunzone
-                                    </div><br>
-                                    <div class="card-block text-nowrap" align="left">
-                                        <strong>Email Address</strong> darealseun@gmail.com
-                                    </div><hr>
-                                  </div><br>
-                        <a data-toggle="modal" data-target="#editModal" class="btn btn-warning text-white">Edit My Profile</a>
-                        <hr>
-                        <a href="new-post" class="btn btn-success text-white">Create New Post</a>
-
-                        </form>   
-                    </div>
-                </div>
-        </section>
-        <!--Start of Footer -->
-        <footer>
+        <section class="section" id="profile">
             <div class="container">
-               <div class="row">
-                   <div class="col text-center">
-                       <p>
-                        Copyright &copy; 2017. More Recipe
-                       </p>
-                   </div>
-               </div>
-           </div>
-       </footer>
+                <div class="row text-center bord">
+                        <div class="col-md-4"></div>
+                    <div class="col-md-4"><hr>
+                        <img style="height: 200px; width: 200px;" src="http://via.placeholder.com/350x150" class="rounded mx-auto d-block" alt="..."><br>
+                        <input style="margin-left: 80px;" align="center" type="file" class="form-control-file">
+                        <hr><strong> Full Name </strong>
+                        <a data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil"></i></a>
+                        <p> Seun Daramola </p>
+    
+                        <strong> Username </strong>
+                        <a data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil"></i></a>
+                        <p> @seunzone </p>
+    
+                        <strong> Email </strong>
+                        <a data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil"></i></a>
+                        <p> darealseun@gmail.com </p>
+    
+    
+                        <strong> Bio </strong>
+                        <a data-toggle="modal" data-target="#editModal"><i class="fa fa-pencil"></i></a>
+                        <p> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    
+                        <p><strong>Recipes: </strong> 12 |<strong> Favorites: </strong> 10 | <strong> Followers: </strong> 12 </p>
+    
+    
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>
        <!-- End of Footer -->
+       <div class="container" align="center">
+            &#9400; 2017 More Recipe
+        </div>
 
          <!-- Start of Login Modal -->
     <div id="editModal" class="modal fade text-dark">
